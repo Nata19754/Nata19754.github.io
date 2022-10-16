@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="treasurehunt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+<body>
+   <h1>Pineapple Island </h1> 
+   <h3>Pineapple Hunt</h3>
+         <div class="instructions">
+        <p>Click the boxes to reveal whats hidden the sand</p>
+        <p>If you click on a box and find a skull,that means you lose</p>
+        <p>If you click on a box and find a Pineapple, you get to eat a tasty treat and win!
+        <p>If you click a box and see a smiley face, dont worry, this just means you get to keep trying
+
+            </p>
+        </p>
+        </div>
+
+    <div class id="gameboard">
+        <table clasd id="table">
+            <table border="1">
+      <tr></tr>
+        <td id=0 onclick="pineappleFinder(0)">?</td>
+        <td id=1 onclick="pineappleFinder(1)">?</td>
+        <td id=2 onclick="pineappleFinder(2)">?</td>
+    </tr>
+    <tr>
+        <td id=3 onclick="pineappleFinder(3)">?</td>
+        <td id=4 onclick="pineappleFinder(4)">?</td>
+        <td id=5 onclick="pineappleFinder(5)">?</td>
+    </tr>
+    <tr>
+        <td id=6 onclick="pineappleFinder(6)">?</td>
+        <td id=7 onclick="pineappleFinder(7)">?</td>
+        <td id=8 onclick="pineappleFinder(8)">?</td>
+      </tr>
+    </table>
+    </div>
+    <p id="outcome"></p>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>
